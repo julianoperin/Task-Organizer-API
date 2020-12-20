@@ -5,19 +5,6 @@ mongoose.connect(
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
-//! TASKS MODEL
-const Tasks = mongoose.model("Tasks", {
-  description: {
-    type: String,
-    required: true,
-    trim: true,
-  },
-  completed: {
-    type: Boolean,
-    default: false,
-  },
-});
-
 //! USER
 // const me = new User({
 //   name: "Dennis",
