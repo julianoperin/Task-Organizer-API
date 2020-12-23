@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 
-//! TASKS MODEL
-const Task = mongoose.model("Tasks", {
+const Task = mongoose.model("Task", {
   description: {
     type: String,
     required: true,
